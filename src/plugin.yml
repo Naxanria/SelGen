@@ -1,0 +1,10 @@
+name: SelGen
+main: no.runsafe.selgen.Plugin
+version: 1.0.@BUILD@
+authors: []
+depend: []
+description:
+commands:
+  something:
+    description:
+    aliases: []
