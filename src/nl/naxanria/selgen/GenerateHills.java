@@ -23,7 +23,6 @@ public class GenerateHills
 			for (int z = startZ; z <= endZ; z++)
 			{
 				double maxHeight = generator.noise(x, z, frequency, amplitude) * multitude + seaLevel;
-				//System.out.println(String.format("[%d,%d] %f", x, z, maxHeight));
 				if(hollow)
 				{
 					for(int y = (int)maxHeight - depth; y < maxHeight; y++)

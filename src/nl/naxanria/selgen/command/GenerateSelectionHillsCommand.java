@@ -73,7 +73,7 @@ public class GenerateSelectionHillsCommand extends PlayerCommand
 					toZ = startZ + depth;
 
 				parts.add(
-						new Part(generateHills, fromX, toX, fromZ, toZ, executor.getWorld().getRaw().getSeed(), 0.5, 0.3, 1 / 64, 64.0, 64.0, true, executor.getWorld())
+						new Part(generateHills, fromX, toX, fromZ, endZ, executor.getWorld().getRaw().getSeed(), 0.2, 0.5, 1 / 128.0, 72.0, 64.0, true, executor.getWorld())
 				);
 
 				z += stepSize;

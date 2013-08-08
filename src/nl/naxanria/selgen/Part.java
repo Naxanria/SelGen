@@ -25,7 +25,7 @@ public class Part
 
 	public void generate()
 	{
-		generateHills.generate(startX, startZ, endX, endZ, multitude, seaLevel, seed, scale, frequency, amplitude, hollow, world );
+		generateHills.generate(startX, startZ, endX, endZ, multitude, seaLevel, seed, scale, frequency, amplitude, hollow, world);
 	}
 
 	private GenerateHills generateHills;
