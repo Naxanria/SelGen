@@ -1,10 +1,10 @@
 name: SelGen
-main: no.runsafe.selgen.Plugin
+main: nl.naxanria.selgen.Plugin
 version: 1.0.@BUILD@
 authors: []
 depend: []
 description:
 commands:
-  something:
+  generate:
     description:
-    aliases: []
+    aliases: [selgen]

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="worldeditbridge">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../out/worldeditbridge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../out/WorldEdit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
